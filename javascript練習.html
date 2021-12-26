@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="myFunction()">換成文字</button>
+    <p class="test">Iａｍ　ａ　ｂｉｇ　stupid and I didn't want to live in this world i am stupid my head is stupid and did't
+        have any eq , so I can't do any thing perfacts so this is why I don't want to live and make my own webside
+        hahaha
+        <script>
+            console.log("123");
+            let a;
+            let b;
+            a = 1;
+            b = 2;
+            console.log(add(a, b))
+            function level(sum, n) {
+                if (n == 1) {
+                    return sum;
+                } else {
+                    return n * level(sum, n - 1);
+                }
+            }
+
+            function add(a, b) {
+                return a + b
+                console.log
+            }
+            var open = false;
+            function myFunction() {
+                let test = document.querySelector(".test");
+                if (open) {
+                    test.innerHTML = "我加了一些中文"
+                } else {
+                    test.innerHTML = "我加了一些法文"
+
+                } open = !open
+            }
+            let ary = ["元素1", "元素2", "元素3"];
+             console.log(ary);
+            console.log(...ary);
+            console.log(ary.length);
+            var text = "<ul>"
+            for (let i = 0; i < ary.length; i++) {
+                text += "<li>" + ary[i] + "</li>"
+            }
+        </script>
+    <div class="03">
+
+    </div>
+
+</body>
+
+</html>
